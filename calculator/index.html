@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>calculator</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="calculator">
+<input type="text" class="screen" id="resultDisplay" readonly> <div class="buttons-grid">
+<button class="button orange plus" onclick="addToResult('+')">+</button> <button class="button gray" onclick="addToResult('7')">7</button> <button class="button gray" onclick="addToResult('8')">8</button> <button class="button gray" onclick="addToResult('9')">9</button> <button class="button orange minus" onclick="addToResult('-')">-</button> <button class="button gray" onclick="addToResult('4')">4</button> <button class="button gray" onclick="addToResult('5')">5</button> <button class="button gray" onclick="addToResult('6')">6</button> <button class="button orange multiply"
+
+ onclick="addToResult('*')">x</button>
+<button class="button gray" onclick="addToResult('1')">1</button> <button class="button gray" onclick="addToResult('2')">2</button> <button class="button gray" onclick="addToResult('3')">3</button> <button class="button orange divide" 
+
+onclick="addToResult('/')">÷</button>
+<button class="button gray " onclick="addToResult('0')">0</button> <button class="button gray" onclick="addToResult('.')">.</button> <button class="button gray equal" onclick="calculateResult()">=</button>
+
+</div>
+<div class="buttons-grid">
+<button class="button orange clear" onclick="resetResult()">C</button>
+</div>
+</div>
+</body>
+	<script src="index.js"></script>
+</html>
+
+
